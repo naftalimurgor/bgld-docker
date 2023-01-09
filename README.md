@@ -20,7 +20,7 @@ Really Fast Quick Start
 
 One liner for Ubuntu 20.04 LTS machines with JSON-RPC enabled on localhost and adds upstart init script:
 
-    curl https://raw.githubusercontent.com/naftalimurgor/docker-bgld/master/bootstrap-host.sh | sh
+    curl https://raw.githubusercontent.com/naftalimurgor/bgld-docker/master/bootstrap-host.sh | sh
 
 Quick Start
 -----------
