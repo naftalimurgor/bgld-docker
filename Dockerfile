@@ -1,6 +1,6 @@
 FROM ubuntu:20.04 as builder
 
-ARG VERSION=0.1.9
+ARG VERSION=0.1.11
 
 RUN apt update \
     && apt install -y --no-install-recommends \
