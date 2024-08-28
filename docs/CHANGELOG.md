@@ -1,6 +1,12 @@
 # `bgld-docker` changelog 
 
-## `v0.1.11` `BitcoinCore` sync - 17/06/2024
+## `v0.1.13` `BitcoinCore` sync - 27/08/2024
+
+Changes:
+
+- Synced with Bitcoin core upto June, 2023 - See [`v0.1.13` release notes](https://github.com/BitgesellOfficial/bitgesell/releases/tag/0.1.13)
+
+## `v0.1.12` `BitcoinCore` sync - 17/06/2024
 
 Changes:
 
