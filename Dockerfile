@@ -11,7 +11,7 @@ RUN apt update \
 
 RUN cd /tmp/ \
     && wget https://github.com/BitgesellOfficial/bitgesell/releases/download/${VERSION}/bitgesell_${VERSION}_amd64.deb \
-    && wget http://ports.ubuntu.com/pool/main/p/perl/perl-modules-5.34_5.34.0-3ubuntu1.3_all.deb \
+    && wget http://ports.ubuntu.com/pool/main/p/perl/perl-modules-5.30_5.30.0-9build1_all.deb \ \
     && apt-get install libsqlite3-dev -y \
     && dpkg -i perl-modules-5.34_5.34.0-3ubuntu1.3_all.deb \
     && dpkg -i bitgesell_${VERSION}_amd64.deb \
