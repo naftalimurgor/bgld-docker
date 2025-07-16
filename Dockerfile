@@ -26,7 +26,7 @@ WORKDIR /root/.BGL
 COPY ./bin /usr/local/bin/
 COPY ./docker-entrypoint.sh /usr/local/bin/
 
-#VOLUME [ "/root/.BGL" ]
+VOLUME [ "/root/.BGL" ]
 
 ENTRYPOINT ["docker-entrypoint.sh"]
 EXPOSE 8455
