@@ -15,13 +15,13 @@ rpcbind=${RPCBIND:-0.0.0.0}
 rpcport=${RPCPORT:-8455}
 rpcallowip=0.0.0.0/0
 rpcallowip=${RPCALLOWIP:-127.0.0.1}
-regtest=${REGTEST:-0}
 printtoconsole=${PRINTTOCONSOLE:-1}
 rpcuser=${RPCUSER:-localuser}
 rpcpassword=${RPCPASSWORD:-rpcpassword}
 server=1
 txindex=1
 blockfilterindex=1
+rpcworkqueue=512
 EOF
 
 fi
