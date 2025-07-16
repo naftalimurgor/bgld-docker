@@ -13,15 +13,23 @@ if [ ! -e "$HOME/.BGL/BGL.conf" ]; then
     cat <<EOF > $HOME/.BGL/BGL.conf
 rpcbind=${RPCBIND:-0.0.0.0}
 rpcport=${RPCPORT:-8455}
-rpcallowip=${RPCALLOWIP:-0.0.0.0/0}
+rpcallowip=0.0.0.0/0
+rpcallowip=${RPCALLOWIP:-127.0.0.1}
 regtest=${REGTEST:-0}
 printtoconsole=${PRINTTOCONSOLE:-1}
 rpcuser=${RPCUSER:-localuser}
-rpcpassword=${RPCPASSWORD:-`dd if=/dev/urandom bs=33 count=1 2>/dev/null | base64`}
+rpcpassword=${RPCPASSWORD:-rpcpassword}
+server=1
+txindex=1
+blockfilterindex=1
 EOF
 
 fi
 
 cat $HOME/.BGL/BGL.conf
 
+echo "Your Bitgesell Node Configuration: $(cat $HOME/.BGL/BGL.conf)"
+
 echo "Initialization completed successfully"
+
+
