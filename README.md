@@ -27,7 +27,9 @@ Quick Start
 
 1. Run an instance of Bitegesell node as follows:
 
-        docker run -dp 8454:8454 naftalimurgor/bgld:latest
+       docker run -d -v /home/nmurgor/.BGL:/root/.BGL -p 8455:8455 naftalimurgor/bgld
+
+> NB: remember to mount volume to keep block persistent during Container restarts
 
 2. Verify that the container is running and bgld node is downloading the blockchain
 
