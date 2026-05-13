@@ -29,5 +29,5 @@ COPY ./docker-entrypoint.sh /usr/local/bin/
 VOLUME [ "/root/.BGL" ]
 
 ENTRYPOINT ["docker-entrypoint.sh"]
-EXPOSE 8455
+EXPOSE 8332
 CMD ["bgl_oneshot"]
