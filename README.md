@@ -27,7 +27,11 @@ Quick Start
 
 1. Run an instance of Bitegesell node as follows:
 
-       docker run -d -v /home/nmurgor/.BGL:/root/.BGL -p 8455:8455 naftalimurgor/bgld
+```sh
+       cd ~
+       mkdir .BGL
+       docker run -d -v /home/user/.BGL:/root/.BGL -p 8455:8455 naftalimurgor/bgld
+```
 
 > NB: remember to mount volume to keep block persistent during Container restarts
 
