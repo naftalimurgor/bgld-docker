@@ -12,7 +12,7 @@ if [ ! -e "$HOME/.BGL/BGL.conf" ]; then
     # Seed a random password for JSON RPC server
     cat <<EOF > $HOME/.BGL/BGL.conf
 rpcbind=${RPCBIND:-0.0.0.0}
-rpcport=${RPCPORT:-8455}
+rpcport=${RPCPORT:-8332 }
 rpcallowip=0.0.0.0/0
 rpcallowip=${RPCALLOWIP:-127.0.0.1}
 printtoconsole=${PRINTTOCONSOLE:-1}
