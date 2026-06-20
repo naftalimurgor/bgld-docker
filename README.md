@@ -1,9 +1,8 @@
 BGLd for Docker
 ===================
-<p align="center">
-  <img width="300" height="300" src="https://github.com/naftalimurgor/bgld-docker/blob/main/Bitgesell.png">
-</p>
-
+<a href="https://hub.docker.com/r/naftalimurgor/bgld">
+	<img width="100%" height="50%" src="./preview.png" alt="Bitgesell Ecosystem" />
+</a>
 Docker image that runs the Bitgesell bgld node in a container for easy deployment.
 
 
