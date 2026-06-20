@@ -39,7 +39,7 @@ Quick Start
 
         $ docker ps
         CONTAINER ID   IMAGE                COMMAND   CREATED         STATUS         PORTS                                                 NAMES
-        304e5a74a539   naftalimurgor/bgld   "BGLd"    5 seconds ago   Up 3 seconds   0.0.0.0:8454->8454/tcp, :::8454->8454/tcp, 8455/tcp   naughty_greider
+        304e5a74a539   naftalimurgor/bgld   "BGLd"    5 seconds ago   Up 3 seconds   0.0.0.0:8332->8454/tcp, :::8332->8332/tcp, 8332/tcp   naughty_greider
 
 3. You can then access the daemon's output thanks to the [docker logs command]( https://docs.docker.com/reference/commandline/cli/#logs)
 
